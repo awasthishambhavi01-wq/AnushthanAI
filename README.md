@@ -1,6 +1,6 @@
-#AnushthanAI Prototype
+#AnushthanAI 
 
-A prototype for AI-assisted product listing generation.
+A project for AI-assisted product listing generation.
 
 ## Structure
 

@@ -17,7 +17,7 @@ app.use(express.json()); // parses JSON request bodies (not used by file upload 
 
 // --- Health check route (quick way to confirm the server is alive) ---
 app.get("/api/health", (req, res) => {
-  res.json({ status: "ok", message: "AnushthanAI backend is running." });
+  res.json({ status: "ok", message: "VyaparAI backend is running." });
 });
 
 // --- Main routes ---

@@ -32,7 +32,7 @@ export default function App() {
         <header className="flex items-center justify-between gap-3 mb-8 animate-fade-up">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-display font-bold text-lg shadow-lg shadow-indigo-500/20 shrink-0">
-              V
+              A
             </div>
             <div>
               <h1 className="text-lg font-display font-semibold text-zinc-100 leading-tight">

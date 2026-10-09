@@ -17,7 +17,7 @@ app.use(express.json()); // parses JSON request bodies (not used by file upload 
 
 // --- Health check route (quick way to confirm the server is alive) ---
 app.get("/api/health", (req, res) => {
-  res.json({ status: "ok", message: "VyaparAI backend is running." });
+  res.json({ status: "ok", message: "AnushthanAI backend is running." });
 });
 
 // --- Main routes ---
@@ -25,7 +25,7 @@ app.use("/api", generateListingRoute);
 
 // --- Start server ---
 app.listen(PORT, () => {
-  console.log(`VyaparAI server running at http://localhost:${PORT}`);
+  console.log(`AnushthanAI server running at http://localhost:${PORT}`);
   console.log(`Health check: http://localhost:${PORT}/api/health`);
   console.log(`Generate listing: POST http://localhost:${PORT}/api/generate-listing`);
 });

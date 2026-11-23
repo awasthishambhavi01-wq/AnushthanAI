@@ -62,7 +62,7 @@ AnushthanAI takes minimal input and returns a complete listing. Instead of one g
 
 ## 🎬 Demo
 
-> 📌 *Add your screenshots / GIF / video link here.*
+
 
 | Create Listing | Agent Pipeline | Result |
 |:---:|:---:|:---:|
@@ -257,64 +257,6 @@ AnushthanAI/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** 18 or newer
-- A free **Gemini API key** from [Google AI Studio](https://aistudio.google.com/apikey)
-
-### 1. Clone
-
-```bash
-git clone https://github.com/YOUR_USERNAME/AnushthanAI.git
-cd AnushthanAI
-```
-
-### 2. Backend
-
-```bash
-cd server
-npm install
-```
-
-Create `server/.env`:
-
-```env
-GEMINI_API_KEY=your_api_key_here
-GEMINI_MODEL=gemini-3.6-flash
-PORT=5000
-```
-
-```bash
-npm run dev
-```
-
-You should see `AnushthanAI server running at http://localhost:5000`.
-
-### 3. Frontend
-
-Open a second terminal:
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-Open the URL Vite prints (usually `http://localhost:5173`).
-
-### Environment variables
-
-| Variable | Required | Description |
-|---|:---:|---|
-| `GEMINI_API_KEY` | ✅ | Your Gemini API key. It stays on the server and is never exposed to the browser |
-| `GEMINI_MODEL` | ➖ | Gemini model to use. Defaults to a fast Flash model |
-| `PORT` | ➖ | Backend port (default `5000`) |
-
-> ⚠️ **Heads-up:** Gemini model names change often. If you get a `404 model not found` error, list the models your key can access and update `GEMINI_MODEL`. One listing makes **3 Gemini calls**, so free-tier daily quotas run out quickly during testing.
-
----
 
 ## 📡 API Reference
 

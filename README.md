@@ -68,10 +68,10 @@ AnushthanAI takes minimal input and returns a complete listing. Instead of one g
 |:---:|:---:|:---:|
 | ![create](docs/screenshots/create.png) | ![pipeline](docs/screenshots/pipeline.png) | ![result](docs/screenshots/result.png) |
 
-🎥 **Demo video:** `https://your-video-link`
+
 
 <details>
-<summary><b>💡 Try it in 30 seconds</b></summary>
+<summary><b>💡 working</b></summary>
 
 1. Click one of the **Quick demo** chips (Thali, Kurti, Jewellery), or upload your own product photo
 2. Describe it by typing, or tap **Speak instead** and talk in Hindi, English or Hinglish

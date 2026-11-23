@@ -408,7 +408,8 @@ The API key lives only in the server's `.env`. Uploads are limited to image type
 
 ---
 
-## 👤 Shambhavi Awasthi
+## 👤 Author
+Shambhavi Awasthi
 
 <div align="center">
 
